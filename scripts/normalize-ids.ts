@@ -44,8 +44,18 @@ function main(): void {
   const dataDir = path.join(root, "src", "data");
 
   const claims = readJson<Item[]>(path.join(dataDir, "claims.json"));
-  const evidence = readJson<Item[]>(path.join(dataDir, "evidence.json"));
-  const events = readJson<Item[]>(path.join(dataDir, "events.json"));
+  const evidence = [
+    ...readJson<Item[]>(path.join(dataDir, "evidence.part1.json")),
+    ...readJson<Item[]>(path.join(dataDir, "evidence.part2.json")),
+    ...readJson<Item[]>(path.join(dataDir, "evidence.part3.json")),
+    ...readJson<Item[]>(path.join(dataDir, "evidence.part4.json")),
+  ];
+  const events = [
+    ...readJson<Item[]>(path.join(dataDir, "events.part1.json")),
+    ...readJson<Item[]>(path.join(dataDir, "events.part2.json")),
+    ...readJson<Item[]>(path.join(dataDir, "events.part3.json")),
+    ...readJson<Item[]>(path.join(dataDir, "events.part4.json")),
+  ];
   const entities = readJson<Item[]>(path.join(dataDir, "entities.json"));
   const proceedings = readJson<Item[]>(path.join(dataDir, "proceedings.json"));
 

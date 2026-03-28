@@ -1,6 +1,12 @@
 import claimsData from "../data/claims.json";
-import evidenceData from "../data/evidence.json";
-import eventsData from "../data/events.json";
+import evidencePart1Data from "../data/evidence.part1.json";
+import evidencePart2Data from "../data/evidence.part2.json";
+import evidencePart3Data from "../data/evidence.part3.json";
+import evidencePart4Data from "../data/evidence.part4.json";
+import eventsPart1Data from "../data/events.part1.json";
+import eventsPart2Data from "../data/events.part2.json";
+import eventsPart3Data from "../data/events.part3.json";
+import eventsPart4Data from "../data/events.part4.json";
 import entitiesData from "../data/entities.json";
 import proceedingsData from "../data/proceedings.json";
 
@@ -11,8 +17,18 @@ import type { Entity } from "../types/entity";
 import type { Proceeding } from "../types/proceeding";
 
 const claims = claimsData as Claim[];
-const evidence = evidenceData as Evidence[];
-const events = eventsData as Event[];
+const evidence = [
+  ...(evidencePart1Data as Evidence[]),
+  ...(evidencePart2Data as Evidence[]),
+  ...(evidencePart3Data as Evidence[]),
+  ...(evidencePart4Data as Evidence[]),
+];
+const events = [
+  ...(eventsPart1Data as Event[]),
+  ...(eventsPart2Data as Event[]),
+  ...(eventsPart3Data as Event[]),
+  ...(eventsPart4Data as Event[]),
+];
 const entities = entitiesData as Entity[];
 const proceedings = proceedingsData as Proceeding[];
 

@@ -40,8 +40,18 @@ function compareEventOrder(a: Event, b: Event): number {
 
 function main(): void {
   const claims = readJson<Claim[]>(path.join(dataDir, "claims.json"));
-  const evidence = readJson<Evidence[]>(path.join(dataDir, "evidence.json"));
-  const events = readJson<Event[]>(path.join(dataDir, "events.json"));
+  const evidence = [
+    ...readJson<Evidence[]>(path.join(dataDir, "evidence.part1.json")),
+    ...readJson<Evidence[]>(path.join(dataDir, "evidence.part2.json")),
+    ...readJson<Evidence[]>(path.join(dataDir, "evidence.part3.json")),
+    ...readJson<Evidence[]>(path.join(dataDir, "evidence.part4.json")),
+  ];
+  const events = [
+    ...readJson<Event[]>(path.join(dataDir, "events.part1.json")),
+    ...readJson<Event[]>(path.join(dataDir, "events.part2.json")),
+    ...readJson<Event[]>(path.join(dataDir, "events.part3.json")),
+    ...readJson<Event[]>(path.join(dataDir, "events.part4.json")),
+  ];
 
   fs.mkdirSync(indexDir, { recursive: true });
 
