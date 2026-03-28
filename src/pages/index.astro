@@ -1,0 +1,23 @@
+---
+import SiteShell from "../components/layout/SiteShell.astro";
+import Header from "../components/layout/Header.astro";
+import { getClaims, getEvidence, getEvents, getProceedings } from "../lib/data";
+const claims = getClaims();
+const evidence = getEvidence();
+const events = getEvents();
+const proceedings = getProceedings();
+---
+<SiteShell>
+  <Header title="Dashboard" subtitle="Read-only litigation intelligence interface" />
+  <div class="grid cols-3">
+    <div class="kpi"><div class="kpi-label">Claims</div><div class="kpi-value">{claims.length}</div></div>
+    <div class="kpi"><div class="kpi-label">Evidence</div><div class="kpi-value">{evidence.length}</div></div>
+    <div class="kpi"><div class="kpi-label">Events</div><div class="kpi-value">{events.length}</div></div>
+  </div>
+  <div class="card">
+    <div class="detail-item-label">Proceedings</div>
+    <ul class="clean">
+      {proceedings.map((item) => <li><a href={`/cases/${item.id}/`}>{item.index_number}</a> — {item.title}</li>)}
+    </ul>
+  </div>
+</SiteShell>

@@ -1,0 +1,11 @@
+---
+import SiteShell from "../../components/layout/SiteShell.astro";
+import Header from "../../components/layout/Header.astro";
+import EvidenceList from "../../components/evidence/EvidenceList.astro";
+import { getEvidence } from "../../lib/data";
+const evidence = getEvidence();
+---
+<SiteShell>
+  <Header title="Evidence" subtitle="Read-only evidence registry" />
+  <EvidenceList evidence={evidence} />
+</SiteShell>

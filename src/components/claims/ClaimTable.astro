@@ -1,0 +1,30 @@
+---
+import type { Claim } from "../../types/claim";
+import ClaimStatusBadge from "./ClaimStatusBadge.astro";
+export interface Props { claims: Claim[] }
+const { claims } = Astro.props;
+---
+<div class="card table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Statement</th>
+        <th>Status</th>
+        <th>Type</th>
+        <th>Asserted By</th>
+      </tr>
+    </thead>
+    <tbody>
+      {claims.map((item) => (
+        <tr>
+          <td><a href={`/claims/${item.id}/`}>{item.id}</a></td>
+          <td>{item.statement}</td>
+          <td><ClaimStatusBadge status={item.claim_status} /></td>
+          <td>{item.claim_type}</td>
+          <td>{item.asserted_by}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

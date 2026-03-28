@@ -1,0 +1,20 @@
+---
+import type { Proceeding } from "../../types/proceeding";
+export interface Props {
+  proceeding: Proceeding;
+  claimCount: number;
+  evidenceCount: number;
+  eventCount: number;
+}
+const { proceeding, claimCount, evidenceCount, eventCount } = Astro.props;
+---
+<div class="card stack">
+  <div class="detail-item-label">{proceeding.index_number}</div>
+  <h2 style="margin:0">{proceeding.title}</h2>
+  <div class="meta">{proceeding.court}</div>
+  <div class="inline-list">
+    <span class="badge neutral">{claimCount} claims</span>
+    <span class="badge neutral">{evidenceCount} evidence</span>
+    <span class="badge neutral">{eventCount} events</span>
+  </div>
+</div>

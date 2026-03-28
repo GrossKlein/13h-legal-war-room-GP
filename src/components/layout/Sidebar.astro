@@ -1,0 +1,25 @@
+---
+const nav = [
+  { group: "Overview", links: [{ href: "/", label: "Dashboard" }] },
+  {
+    group: "Core Views",
+    links: [
+      { href: "/claims/", label: "Claims" },
+      { href: "/evidence/", label: "Evidence" },
+      { href: "/timeline/", label: "Timeline" },
+      { href: "/cases/", label: "Cases" },
+    ],
+  },
+];
+---
+<aside class="sidebar">
+  <div class="brand">13H Legal War Room</div>
+  {nav.map((section) => (
+    <div class="nav-group">
+      <div class="nav-group-title">{section.group}</div>
+      {section.links.map((link) => (
+        <a class="nav-link" href={link.href}>{link.label}</a>
+      ))}
+    </div>
+  ))}
+</aside>

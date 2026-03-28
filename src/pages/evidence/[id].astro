@@ -1,0 +1,32 @@
+---
+import SiteShell from "../../components/layout/SiteShell.astro";
+import Header from "../../components/layout/Header.astro";
+import EvidenceDetail from "../../components/evidence/EvidenceDetail.astro";
+import EvidenceLinks from "../../components/evidence/EvidenceLinks.astro";
+import EmptyState from "../../components/shared/EmptyState.astro";
+import { getEvidence, getEvidenceById } from "../../lib/data";
+import { getClaimsForEvidence, getEventsForEvidence } from "../../lib/relationships";
+
+export async function getStaticPaths() {
+  return getEvidence().map((item) => ({ params: { id: item.id } }));
+}
+
+const { id } = Astro.params;
+const evidence = id ? getEvidenceById(id) : undefined;
+const claims = id ? getClaimsForEvidence(id) : [];
+const events = id ? getEventsForEvidence(id) : [];
+---
+<SiteShell>
+  {evidence ? (
+    <>
+      <Header title={evidence.id} subtitle="Evidence detail" />
+      <EvidenceDetail evidence={evidence} />
+      <EvidenceLinks claims={claims} events={events} />
+    </>
+  ) : (
+    <>
+      <Header title="Evidence not found" />
+      <EmptyState message="No evidence found for this ID." />
+    </>
+  )}
+</SiteShell>

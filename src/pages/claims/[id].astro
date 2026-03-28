@@ -1,0 +1,31 @@
+---
+import SiteShell from "../../components/layout/SiteShell.astro";
+import Header from "../../components/layout/Header.astro";
+import ClaimDetail from "../../components/claims/ClaimDetail.astro";
+import EmptyState from "../../components/shared/EmptyState.astro";
+import { getClaims } from "../../lib/data";
+import { getClaimById } from "../../lib/data";
+import { getSupportingEvidenceForClaim, getContradictingEvidenceForClaim, getEventsForClaim } from "../../lib/relationships";
+
+export async function getStaticPaths() {
+  return getClaims().map((claim) => ({ params: { id: claim.id } }));
+}
+const { id } = Astro.params;
+const claim = id ? getClaimById(id) : undefined;
+const supportingEvidence = id ? getSupportingEvidenceForClaim(id) : [];
+const contradictingEvidence = id ? getContradictingEvidenceForClaim(id) : [];
+const events = id ? getEventsForClaim(id) : [];
+---
+<SiteShell>
+  {claim ? (
+    <>
+      <Header title={claim.id} subtitle="Claim detail" />
+      <ClaimDetail claim={claim} supportingEvidence={supportingEvidence} contradictingEvidence={contradictingEvidence} events={events} />
+    </>
+  ) : (
+    <>
+      <Header title="Claim not found" />
+      <EmptyState message="No claim found for this ID." />
+    </>
+  )}
+</SiteShell>

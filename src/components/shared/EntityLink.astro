@@ -1,0 +1,8 @@
+---
+export interface Props {
+  id?: string | null;
+  name: string;
+}
+const { id, name } = Astro.props;
+---
+{id ? <a href={`/evidence/?entity=${encodeURIComponent(id)}`}>{name}</a> : <span>{name}</span>}

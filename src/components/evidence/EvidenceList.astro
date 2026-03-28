@@ -1,0 +1,30 @@
+---
+import type { Evidence } from "../../types/evidence";
+import EvidenceTypeBadge from "./EvidenceTypeBadge.astro";
+export interface Props { evidence: Evidence[] }
+const { evidence } = Astro.props;
+---
+<div class="card table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Source</th>
+        <th>Type</th>
+        <th>Date</th>
+        <th>Reliability</th>
+      </tr>
+    </thead>
+    <tbody>
+      {evidence.map((item) => (
+        <tr>
+          <td><a href={`/evidence/${item.id}/`}>{item.id}</a></td>
+          <td>{item.source}</td>
+          <td><EvidenceTypeBadge type={item.type} /></td>
+          <td>{item.date ?? "—"}</td>
+          <td>{item.reliability_level}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

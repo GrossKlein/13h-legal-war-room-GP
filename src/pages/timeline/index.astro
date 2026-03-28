@@ -1,0 +1,11 @@
+---
+import SiteShell from "../../components/layout/SiteShell.astro";
+import Header from "../../components/layout/Header.astro";
+import TimelineFilters from "../../components/timeline/TimelineFilters";
+import { getEvents } from "../../lib/data";
+const events = getEvents();
+---
+<SiteShell>
+  <Header title="Timeline" subtitle="Chronological factual and procedural events" />
+  <TimelineFilters client:load events={events} />
+</SiteShell>

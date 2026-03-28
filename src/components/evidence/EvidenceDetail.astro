@@ -1,0 +1,28 @@
+---
+import type { Evidence } from "../../types/evidence";
+import EvidenceTypeBadge from "./EvidenceTypeBadge.astro";
+import SourceRef from "../shared/SourceRef.astro";
+export interface Props {
+  evidence: Evidence;
+}
+const { evidence } = Astro.props;
+---
+<div class="card stack">
+  <div class="inline-list">
+    <EvidenceTypeBadge type={evidence.type} />
+    <span class="badge neutral">{evidence.reliability_level}</span>
+  </div>
+  <div>
+    <div class="detail-item-label">Source</div>
+    <div>{evidence.source}</div>
+  </div>
+  <div>
+    <div class="detail-item-label">Date</div>
+    <div>{evidence.date ?? "—"}</div>
+  </div>
+  <div>
+    <div class="detail-item-label">Excerpt</div>
+    <pre class="snippet">{evidence.excerpt}</pre>
+  </div>
+  <SourceRef value={evidence.full_reference ?? evidence.provenance} />
+</div>

@@ -1,0 +1,16 @@
+---
+import SiteShell from "../../components/layout/SiteShell.astro";
+import Header from "../../components/layout/Header.astro";
+import { getProceedings } from "../../lib/data";
+const proceedings = getProceedings();
+---
+<SiteShell>
+  <Header title="Cases" subtitle="Proceeding-level views" />
+  <div class="card">
+    <ul class="clean">
+      {proceedings.map((item) => (
+        <li><a href={`/cases/${item.id}/`}>{item.index_number}</a> — {item.title} — {item.court}</li>
+      ))}
+    </ul>
+  </div>
+</SiteShell>

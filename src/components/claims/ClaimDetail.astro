@@ -1,0 +1,80 @@
+---
+import type { Claim } from "../../types/claim";
+import type { Evidence } from "../../types/evidence";
+import type { Event } from "../../types/event";
+import ClaimStatusBadge from "./ClaimStatusBadge.astro";
+import SourceRef from "../shared/SourceRef.astro";
+
+export interface Props {
+  claim: Claim;
+  supportingEvidence: Evidence[];
+  contradictingEvidence: Evidence[];
+  events: Event[];
+}
+const { claim, supportingEvidence, contradictingEvidence, events } = Astro.props;
+---
+<div class="grid cols-2">
+  <div class="card stack">
+    <div>
+      <div class="detail-item-label">Statement</div>
+      <div>{claim.statement}</div>
+    </div>
+    <div class="inline-list">
+      <ClaimStatusBadge status={claim.claim_status} />
+      <span class="badge neutral">{claim.claim_type}</span>
+      {claim.contradiction_type && <span class="badge bad">{claim.contradiction_type}</span>}
+    </div>
+    <div>
+      <div class="detail-item-label">Asserted By</div>
+      <div>{claim.asserted_by}</div>
+    </div>
+    <div>
+      <div class="detail-item-label">Asserted In</div>
+      <div>{claim.asserted_in}</div>
+    </div>
+    <div>
+      <div class="detail-item-label">Legal Significance</div>
+      <div>{claim.legal_significance}</div>
+    </div>
+    {claim.judicial_treatment && (
+      <div>
+        <div class="detail-item-label">Judicial Treatment</div>
+        <div>{claim.judicial_treatment}</div>
+      </div>
+    )}
+    <SourceRef value={`Review status: ${claim.review_status}`} />
+  </div>
+
+  <div class="stack">
+    <div class="card">
+      <div class="detail-item-label">Supporting Evidence</div>
+      {supportingEvidence.length ? (
+        <ul class="clean">
+          {supportingEvidence.map((item) => (
+            <li><a href={`/evidence/${item.id}/`}>{item.id}</a> — {item.source}</li>
+          ))}
+        </ul>
+      ) : <div class="empty">No supporting evidence linked.</div>}
+    </div>
+    <div class="card">
+      <div class="detail-item-label">Contradicting Evidence</div>
+      {contradictingEvidence.length ? (
+        <ul class="clean">
+          {contradictingEvidence.map((item) => (
+            <li><a href={`/evidence/${item.id}/`}>{item.id}</a> — {item.source}</li>
+          ))}
+        </ul>
+      ) : <div class="empty">No contradicting evidence linked.</div>}
+    </div>
+    <div class="card">
+      <div class="detail-item-label">Related Events</div>
+      {events.length ? (
+        <ul class="clean">
+          {events.map((item) => (
+            <li><a href={`/timeline/?event=${encodeURIComponent(item.id)}`}>{item.id}</a> — {item.date} — {item.description}</li>
+          ))}
+        </ul>
+      ) : <div class="empty">No related events linked.</div>}
+    </div>
+  </div>
+</div>

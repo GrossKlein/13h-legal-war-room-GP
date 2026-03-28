@@ -1,0 +1,36 @@
+---
+import SiteShell from "../../components/layout/SiteShell.astro";
+import Header from "../../components/layout/Header.astro";
+import EmptyState from "../../components/shared/EmptyState.astro";
+import ProceedingSummary from "../../components/proceedings/ProceedingSummary.astro";
+import ProceedingClaims from "../../components/proceedings/ProceedingClaims.astro";
+import ProceedingEvidence from "../../components/proceedings/ProceedingEvidence.astro";
+import ProceedingTimeline from "../../components/proceedings/ProceedingTimeline.astro";
+import { getProceedings } from "../../lib/data";
+import { getProceedingBundle } from "../../lib/relationships";
+
+export async function getStaticPaths() {
+  return getProceedings().map((item) => ({ params: { id: item.id } }));
+}
+
+const { id } = Astro.params;
+const bundle = id ? getProceedingBundle(id) : { proceeding: undefined, claims: [], evidence: [], events: [] };
+---
+<SiteShell>
+  {bundle.proceeding ? (
+    <>
+      <Header title={bundle.proceeding.index_number} subtitle={bundle.proceeding.title} />
+      <ProceedingSummary proceeding={bundle.proceeding} claimCount={bundle.claims.length} evidenceCount={bundle.evidence.length} eventCount={bundle.events.length} />
+      <div class="grid cols-3">
+        <ProceedingClaims claims={bundle.claims} />
+        <ProceedingEvidence evidence={bundle.evidence} />
+        <ProceedingTimeline events={bundle.events} />
+      </div>
+    </>
+  ) : (
+    <>
+      <Header title="Case not found" />
+      <EmptyState message="No proceeding found for this ID." />
+    </>
+  )}
+</SiteShell>

@@ -1,0 +1,15 @@
+---
+import type { Event } from "../../types/event";
+export interface Props { events: Event[] }
+const { events } = Astro.props;
+---
+<div class="card">
+  <div class="detail-item-label">Timeline</div>
+  {events.length ? (
+    <ul class="clean">
+      {events.map((item) => (
+        <li>{item.date} — {item.description}</li>
+      ))}
+    </ul>
+  ) : <div class="empty">No events linked.</div>}
+</div>

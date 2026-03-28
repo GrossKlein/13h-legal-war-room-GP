@@ -1,0 +1,16 @@
+---
+import type { Claim } from "../../types/claim";
+import ClaimStatusBadge from "../claims/ClaimStatusBadge.astro";
+export interface Props { claims: Claim[] }
+const { claims } = Astro.props;
+---
+<div class="card">
+  <div class="detail-item-label">Claims</div>
+  {claims.length ? (
+    <ul class="clean">
+      {claims.map((item) => (
+        <li><a href={`/claims/${item.id}/`}>{item.id}</a> — {item.statement} <ClaimStatusBadge status={item.claim_status} /></li>
+      ))}
+    </ul>
+  ) : <div class="empty">No claims linked.</div>}
+</div>

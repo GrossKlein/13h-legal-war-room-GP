@@ -1,0 +1,15 @@
+---
+import type { Evidence } from "../../types/evidence";
+export interface Props { evidence: Evidence[] }
+const { evidence } = Astro.props;
+---
+<div class="card">
+  <div class="detail-item-label">Evidence</div>
+  {evidence.length ? (
+    <ul class="clean">
+      {evidence.map((item) => (
+        <li><a href={`/evidence/${item.id}/`}>{item.id}</a> — {item.source}</li>
+      ))}
+    </ul>
+  ) : <div class="empty">No evidence linked.</div>}
+</div>

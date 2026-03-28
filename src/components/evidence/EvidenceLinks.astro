@@ -1,0 +1,27 @@
+---
+import type { Claim } from "../../types/claim";
+import type { Event } from "../../types/event";
+export interface Props {
+  claims: Claim[];
+  events: Event[];
+}
+const { claims, events } = Astro.props;
+---
+<div class="grid cols-2">
+  <div class="card">
+    <div class="detail-item-label">Related Claims</div>
+    {claims.length ? (
+      <ul class="clean">
+        {claims.map((item) => <li><a href={`/claims/${item.id}/`}>{item.id}</a> — {item.statement}</li>)}
+      </ul>
+    ) : <div class="empty">No claims linked.</div>}
+  </div>
+  <div class="card">
+    <div class="detail-item-label">Related Events</div>
+    {events.length ? (
+      <ul class="clean">
+        {events.map((item) => <li>{item.date} — {item.description}</li>)}
+      </ul>
+    ) : <div class="empty">No events linked.</div>}
+  </div>
+</div>

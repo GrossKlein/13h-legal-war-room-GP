@@ -1,0 +1,11 @@
+---
+import SiteShell from "../../components/layout/SiteShell.astro";
+import Header from "../../components/layout/Header.astro";
+import ClaimFilters from "../../components/claims/ClaimFilters";
+import { getClaims } from "../../lib/data";
+const claims = getClaims();
+---
+<SiteShell>
+  <Header title="Claims" subtitle="Filter and inspect canonical claim records" />
+  <ClaimFilters client:load claims={claims} />
+</SiteShell>

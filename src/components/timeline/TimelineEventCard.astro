@@ -1,0 +1,19 @@
+---
+import type { Event } from "../../types/event";
+export interface Props { event: Event }
+const { event } = Astro.props;
+---
+<div class="card stack">
+  <div class="inline-list">
+    <span class="badge neutral">{event.event_type}</span>
+    <span class="badge neutral">{event.date_certainty}</span>
+    {event.proceeding_id && <span class="badge neutral">{event.proceeding_id}</span>}
+  </div>
+  <div class="detail-item-label">{event.date}</div>
+  <div>{event.description}</div>
+  {event.causal_tags.length > 0 && (
+    <div class="inline-list">
+      {event.causal_tags.map((tag) => <span class="badge warn">{tag}</span>)}
+    </div>
+  )}
+</div>

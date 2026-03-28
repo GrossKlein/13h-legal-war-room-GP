@@ -1,0 +1,8 @@
+---
+export interface Props {
+  status: string;
+}
+const { status } = Astro.props;
+const klass = status === "supported" ? "good" : status === "contradicted" ? "bad" : status === "judicially_addressed" ? "warn" : "neutral";
+---
+<span class={`badge ${klass}`}>{status}</span>

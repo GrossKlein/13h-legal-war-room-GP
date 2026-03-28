@@ -1,0 +1,9 @@
+---
+import type { Event } from "../../types/event";
+import TimelineEventCard from "./TimelineEventCard.astro";
+export interface Props { events: Event[] }
+const { events } = Astro.props;
+---
+<div class="stack">
+  {events.map((event) => <TimelineEventCard event={event} />)}
+</div>
