@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "date_certainty": {
+      "type": "string",
+      "enum": [
+        "exact",
+        "approximate",
+        "inferred"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "event_type": {
+      "type": "string",
+      "enum": [
+        "filing",
+        "communication",
+        "inspection",
+        "ruling",
+        "transaction",
+        "modification",
+        "demand",
+        "obstruction"
+      ]
+    },
+    "proceeding_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "related_claim_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_entity_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "causal_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes_internal": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "date",
+    "date_certainty",
+    "description",
+    "event_type",
+    "proceeding_id",
+    "related_claim_ids",
+    "related_evidence_ids",
+    "related_entity_ids",
+    "causal_tags",
+    "notes_internal"
+  ],
+  "additionalProperties": false
+}
