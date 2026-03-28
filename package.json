@@ -1,0 +1,25 @@
+{
+  "name": "13h-legal-war-room",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "check:ts": "tsc --noEmit",
+    "build:indexes": "node --import tsx scripts/build-derived-indexes.ts",
+    "check:ids": "node --import tsx scripts/normalize-ids.ts"
+  },
+  "dependencies": {
+    "astro": "^6.1.1",
+    "@astrojs/react": "^4.4.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "tsx": "^4.20.3"
+  }
+}
