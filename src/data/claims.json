@@ -1,0 +1,954 @@
+[
+  {
+    "id": "claim-0001",
+    "statement": "We never had an in-person board meeting. We just talked on the phone.",
+    "asserted_by": "Morgan Brill",
+    "asserted_in": "Morgan Brill correspondence",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0003"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Governance dispute over October 15, 2018 meeting",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0002",
+    "statement": "I can assure you that never happened.",
+    "asserted_by": "Morgan Brill",
+    "asserted_in": "Morgan Brill correspondence on ROFR",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": "documentary_conflict",
+    "supporting_evidence_ids": [
+      "evidence-0004"
+    ],
+    "contradicting_evidence_ids": [
+      "evidence-0002"
+    ],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "ROFR waiver authenticity",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0003",
+    "statement": "This is definitely not true.",
+    "asserted_by": "Morgan Brill",
+    "asserted_in": "Morgan Brill correspondence",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Dispute over supposed 60/40 building-sale split agreement",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0004",
+    "statement": "Mike put his HVAC on the coping wall outside the window of the pink bedroom.",
+    "asserted_by": "Morgan Brill",
+    "asserted_in": "Morgan Brill correspondence",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Location and history of HVAC equipment",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0005",
+    "statement": "He just has a completely bonkers idea about the value of that place that is in no way linked to reality.",
+    "asserted_by": "Morgan Brill",
+    "asserted_in": "Morgan Brill correspondence",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Assessment of Bleich valuation behavior",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0006",
+    "statement": "It seems like he’s lying about a lot of things!! What is wrong with him?!",
+    "asserted_by": "Morgan Brill",
+    "asserted_in": "Morgan Brill correspondence",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Assessment of credibility",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0007",
+    "statement": "as of yesterday I am officially resigning as Co-President of the board of 13 Harrison St",
+    "asserted_by": "Morgan Brill",
+    "asserted_in": "Morgan Brill resignation email",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0005"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [
+      "event-0012"
+    ],
+    "judicial_treatment": null,
+    "legal_significance": "Timing of resignation",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0008",
+    "statement": "I am not interested in having an official unit holders meeting as we just had one.",
+    "asserted_by": "Michael Bleich",
+    "asserted_in": "November 26, 2018 email",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Governance blockade",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0009",
+    "statement": "Tom is going to do some light work on the skylight air conditioning and ventilation above our back room",
+    "asserted_by": "Michael Bleich",
+    "asserted_in": "December 1, 2018 email from Michael Bleich",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0006"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [
+      "event-0021"
+    ],
+    "judicial_treatment": null,
+    "legal_significance": "Rooftop HVAC acknowledgement",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0010",
+    "statement": "some architectural planning around the possible conversion of our apartment into office or retail space",
+    "asserted_by": "Michael Bleich",
+    "asserted_in": "December 1, 2018 email from Michael Bleich",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0006"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [
+      "event-0021"
+    ],
+    "judicial_treatment": null,
+    "legal_significance": "Possible commercial conversion of Unit 1",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0011",
+    "statement": "There is a water leak coming from your unit into ours.",
+    "asserted_by": "Michael Bleich",
+    "asserted_in": "July 7, 2019 email from Michael Bleich",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0007"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [
+      "event-0026"
+    ],
+    "judicial_treatment": null,
+    "legal_significance": "Leak narrative",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0012",
+    "statement": "My interest is simply to sell unit 1 with as little friction as possible.",
+    "asserted_by": "Michael Bleich",
+    "asserted_in": "February 28, 2019 email from Michael Bleich",
+    "proceeding_ids": [
+      "proc-0001"
+    ],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0010"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Stated objective after filing",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0013",
+    "statement": "We are getting a lot of interest currently around the new asking price of $3.9mm.",
+    "asserted_by": "Michael Bleich",
+    "asserted_in": "February 28, 2019 email from Michael Bleich",
+    "proceeding_ids": [
+      "proc-0001"
+    ],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": "documentary_conflict",
+    "supporting_evidence_ids": [
+      "evidence-0010"
+    ],
+    "contradicting_evidence_ids": [
+      "evidence-0011"
+    ],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Market-interest claim",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0014",
+    "statement": "If you do have such an interest I would encourage you to put in an offer.",
+    "asserted_by": "Michael Bleich",
+    "asserted_in": "February 28, 2019 email from Michael Bleich",
+    "proceeding_ids": [
+      "proc-0001"
+    ],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0010"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Buyout pressure",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0015",
+    "statement": "the price that the seller wanted to list the apartment for",
+    "asserted_by": "David Kornmeier",
+    "asserted_in": "Kornmeier deposition",
+    "proceeding_ids": [
+      "proc-0001"
+    ],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0012"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [
+      "event-0027"
+    ],
+    "judicial_treatment": null,
+    "legal_significance": "Source of $6.5M listing price",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0016",
+    "statement": "determined that those were not legal bedrooms",
+    "asserted_by": "David Kornmeier",
+    "asserted_in": "Kornmeier deposition",
+    "proceeding_ids": [
+      "proc-0001"
+    ],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0012"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [
+      "event-0027"
+    ],
+    "judicial_treatment": null,
+    "legal_significance": "Cellar legality",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0017",
+    "statement": "not operating within legal usage",
+    "asserted_by": "David Kornmeier",
+    "asserted_in": "Kornmeier deposition",
+    "proceeding_ids": [
+      "proc-0001"
+    ],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0012"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [
+      "event-0027"
+    ],
+    "judicial_treatment": null,
+    "legal_significance": "Cellar use relative to C of O",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0018",
+    "statement": "it is undisputed that his [Michael Bleich’s] term as a Board member expired October 15, 2019.",
+    "asserted_by": "Justice W. Franc Perry",
+    "asserted_in": "Justice Perry Decision and Order",
+    "proceeding_ids": [
+      "proc-0001"
+    ],
+    "claim_type": "factual_assertion",
+    "claim_status": "judicially_addressed",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0013"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [
+      "event-0028"
+    ],
+    "judicial_treatment": "it is undisputed that his [Michael Bleich’s] term as a Board member expired October 15, 2019.",
+    "legal_significance": "Board status judicial treatment",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0019",
+    "statement": "vague and conclusory",
+    "asserted_by": "Justice W. Franc Perry",
+    "asserted_in": "Justice Perry Decision and Order",
+    "proceeding_ids": [
+      "proc-0001"
+    ],
+    "claim_type": "factual_assertion",
+    "claim_status": "judicially_addressed",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0013"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [
+      "event-0028"
+    ],
+    "judicial_treatment": "vague and conclusory",
+    "legal_significance": "Judicial treatment of fiduciary duty allegations",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0020",
+    "statement": "questions of fact",
+    "asserted_by": "First Department",
+    "asserted_in": "First Department decision",
+    "proceeding_ids": [
+      "proc-0001"
+    ],
+    "claim_type": "factual_assertion",
+    "claim_status": "judicially_addressed",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0014"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [
+      "event-0028"
+    ],
+    "judicial_treatment": "questions of fact",
+    "legal_significance": "Cellar-use issue remained live",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0021",
+    "statement": "the rooftop HVAC provides heating, ventilation, and air conditioning to Plaintiffs’ residential unit.",
+    "asserted_by": "Michael Bleich",
+    "asserted_in": "Bleich sworn affirmation re HVAC",
+    "proceeding_ids": [
+      "proc-0002"
+    ],
+    "claim_type": "sworn_statement",
+    "claim_status": "alleged",
+    "contradiction_type": "documentary_conflict",
+    "supporting_evidence_ids": [
+      "evidence-0017"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [
+      "event-0036"
+    ],
+    "judicial_treatment": null,
+    "legal_significance": "Core irreparable-harm predicate in 2024 application",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0022",
+    "statement": "the Unit 1 HVAC provides heat to our home, which is necessary and critical in the approaching fall and winter months.",
+    "asserted_by": "Michael Bleich",
+    "asserted_in": "Reply Affirmation NYSCEF Doc. 94 ¶12",
+    "proceeding_ids": [
+      "proc-0002"
+    ],
+    "claim_type": "sworn_statement",
+    "claim_status": "alleged",
+    "contradiction_type": "documentary_conflict",
+    "supporting_evidence_ids": [
+      "evidence-0018"
+    ],
+    "contradicting_evidence_ids": [
+      "evidence-0036",
+      "evidence-0037"
+    ],
+    "related_event_ids": [
+      "event-0040",
+      "event-0046"
+    ],
+    "judicial_treatment": null,
+    "legal_significance": "Heating necessity claim",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0023",
+    "statement": "The Board has not provided any alternatives to providing heating to our home.",
+    "asserted_by": "Michael Bleich",
+    "asserted_in": "Reply Affirmation NYSCEF Doc. 94 ¶12",
+    "proceeding_ids": [
+      "proc-0002"
+    ],
+    "claim_type": "sworn_statement",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0018"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Alternative-heating claim",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0024",
+    "statement": "the HVAC is unpermitted and violates DOB regulations",
+    "asserted_by": "Justice Mary V. Rosado",
+    "asserted_in": "Justice Rosado preliminary injunction order",
+    "proceeding_ids": [
+      "proc-0002"
+    ],
+    "claim_type": "factual_assertion",
+    "claim_status": "judicially_addressed",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0019"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [
+      "event-0037"
+    ],
+    "judicial_treatment": "the HVAC is unpermitted and violates DOB regulations",
+    "legal_significance": "Judicial finding on HVAC legality",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0025",
+    "statement": "the Unit 1 HVAC provides heat to our home ... was willfully false",
+    "asserted_by": "Investigative report",
+    "asserted_in": "The Six Proofs of Perjury",
+    "proceeding_ids": [
+      "proc-0002"
+    ],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Report’s characterization of perjury proof",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0026",
+    "statement": "the Unit 1 HVAC provides heat to our home ... was, in fact, a dead machine.",
+    "asserted_by": "Investigative report",
+    "asserted_in": "NY Brownstone inspection",
+    "proceeding_ids": [
+      "proc-0002"
+    ],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0036"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [
+      "event-0040"
+    ],
+    "judicial_treatment": null,
+    "legal_significance": "Characterization based on technician findings",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0027",
+    "statement": "the temporary roof was observed to be defective with large sections of bubbling, blistering, and other signs of roof delamination",
+    "asserted_by": "HLZAE",
+    "asserted_in": "HLZAE report",
+    "proceeding_ids": [
+      "proc-0002"
+    ],
+    "claim_type": "expert_opinion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0021"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Roof condition",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0028",
+    "statement": "the minimum price I would be looking to get from the market or from you is $6 million for my unit on the lower end and $8 million on the higher end.",
+    "asserted_by": "Michael Bleich",
+    "asserted_in": "May 24, 2025 extortion email",
+    "proceeding_ids": [
+      "proc-0003"
+    ],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0024"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Buyout demand",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0029",
+    "statement": "we should be looking at selling the entire building and splitting proceeds 50-50",
+    "asserted_by": "Michael Bleich",
+    "asserted_in": "May 24, 2025 extortion email",
+    "proceeding_ids": [
+      "proc-0003"
+    ],
+    "claim_type": "legal_position",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0024"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "50-50 split demand",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0030",
+    "statement": "shall remain in effect throughout any stay(s)",
+    "asserted_by": "Term Sheet (Final Draft)",
+    "asserted_in": "Term Sheet (Final Draft)",
+    "proceeding_ids": [
+      "proc-0003"
+    ],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0025"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Section 5(a) preservation of injunction",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0031",
+    "statement": "may enforce the Preliminary Injunction Order at the expense of the Board, the Condominium, the LLC",
+    "asserted_by": "Term Sheet (Final Draft)",
+    "asserted_in": "Term Sheet (Final Draft)",
+    "proceeding_ids": [
+      "proc-0003"
+    ],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0025"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Section 5(a) enforcement language",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0032",
+    "statement": "I propose to change the building permit once more without any FAR increase at this point and just finish the project because the house is leaking and the roof can’t be completed.",
+    "asserted_by": "Owner of Unit 2",
+    "asserted_in": "August 27, 2025 email to counsel",
+    "proceeding_ids": [
+      "proc-0003"
+    ],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0026"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [
+      "event-0039"
+    ],
+    "judicial_treatment": null,
+    "legal_significance": "Duress evidence",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0033",
+    "statement": "There was strong interest from buyers at 3.4",
+    "asserted_by": "Michael Bleich",
+    "asserted_in": "April 30, 2021 WhatsApp messages",
+    "proceeding_ids": [
+      "proc-0003"
+    ],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0027"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Pre-injunction valuation admission",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0034",
+    "statement": "At the end of the day all I’m looking for is a path to be able to sell in the future without undue interference.",
+    "asserted_by": "Michael Bleich",
+    "asserted_in": "April 30, 2021 WhatsApp messages",
+    "proceeding_ids": [
+      "proc-0003"
+    ],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0027"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Settlement posture before injunction",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0035",
+    "statement": "A new action was commenced under Index No. 152171/2026 before Justice Roth, with an Enhanced Verified Complaint asserting eleven causes of action.",
+    "asserted_by": "Investigative report",
+    "asserted_in": "Enhanced Verified Complaint",
+    "proceeding_ids": [
+      "proc-0004"
+    ],
+    "claim_type": "sworn_statement",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0029"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [
+      "event-0044"
+    ],
+    "judicial_treatment": null,
+    "legal_significance": "Description of 2026 action",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0036",
+    "statement": "Scout Trading would be fined $3 million for systematic violations of Regulation SHO.",
+    "asserted_by": "Investigative report",
+    "asserted_in": "FINRA/NASDAQ enforcement record",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0030"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Regulatory history of Bleich",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0037",
+    "statement": "profitable but impermissible",
+    "asserted_by": "FINRA",
+    "asserted_in": "FINRA/NASDAQ enforcement record",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0030"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "FINRA characterization of trading strategy",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0038",
+    "statement": "paraphrases Defendants’ statements in its pleadings, seemingly for maximum shock value",
+    "asserted_by": "U.S. District Judge Janis Sammartino",
+    "asserted_in": "Medifast sanctions ruling",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0031"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Judicial characterization of Giacovas conduct",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0039",
+    "statement": "Total documented lies across all proceedings: 24 discrete material misstatements",
+    "asserted_by": "Investigative report",
+    "asserted_in": "Table of Lies",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0032"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Aggregate tally in report",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0040",
+    "statement": "This case is about a spreadsheet and a weapon.",
+    "asserted_by": "Closing Argument Framework",
+    "asserted_in": "Litigation War Book",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Trial theme",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0041",
+    "statement": "The defendant created a spreadsheet proving his unit is worth $4.4–4.9 million, then demanded $6–8 million.",
+    "asserted_by": "Closing Argument Framework",
+    "asserted_in": "Litigation War Book",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Trial theme",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0042",
+    "statement": "Michael Bleich does not own, has never owned, and has no legal claim to any HVAC equipment on the roof of 13 Harrison Street.",
+    "asserted_by": "Investigative report",
+    "asserted_in": "Mechanical schematic",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0035"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Central fabrication claim",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0043",
+    "statement": "Previously incorrectly identified as Unit 1’s HVAC.",
+    "asserted_by": "Mechanical schematic",
+    "asserted_in": "Mechanical schematic",
+    "proceeding_ids": [],
+    "claim_type": "factual_assertion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0035"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [],
+    "judicial_treatment": null,
+    "legal_significance": "Annotated equipment identification",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0044",
+    "statement": "supplements with other wall units",
+    "asserted_by": "Michael Bleich",
+    "asserted_in": "Vogt sworn affirmation",
+    "proceeding_ids": [],
+    "claim_type": "sworn_statement",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0038"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [
+      "event-0046"
+    ],
+    "judicial_treatment": null,
+    "legal_significance": "Oral admission on supplemental heating/cooling",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0045",
+    "statement": "have no legal standing",
+    "asserted_by": "Abdallah Elcherbini, AIA",
+    "asserted_in": "Elcherbini February 26, 2026 letter",
+    "proceeding_ids": [],
+    "claim_type": "expert_opinion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0037"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [
+      "event-0045"
+    ],
+    "judicial_treatment": null,
+    "legal_significance": "Status of rooftop HVAC units",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  },
+  {
+    "id": "claim-0046",
+    "statement": "appears to be non-functional",
+    "asserted_by": "Abdallah Elcherbini, AIA",
+    "asserted_in": "Elcherbini February 26, 2026 letter",
+    "proceeding_ids": [],
+    "claim_type": "expert_opinion",
+    "claim_status": "alleged",
+    "contradiction_type": null,
+    "supporting_evidence_ids": [
+      "evidence-0037"
+    ],
+    "contradicting_evidence_ids": [],
+    "related_event_ids": [
+      "event-0045"
+    ],
+    "judicial_treatment": null,
+    "legal_significance": "Condition of Daikin heat pump",
+    "review_status": "unreviewed",
+    "notes_internal": null
+  }
+]
