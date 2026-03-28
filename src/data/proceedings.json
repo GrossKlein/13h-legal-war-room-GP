@@ -1,0 +1,114 @@
+[
+  {
+    "id": "proc-0001",
+    "index_number": "651188/2019",
+    "title": "13 Harrison Street Condominium v. Bleich",
+    "court": "Commercial Division, New York County Supreme Court",
+    "claim_ids": [
+      "claim-0012",
+      "claim-0013",
+      "claim-0014",
+      "claim-0015",
+      "claim-0016",
+      "claim-0017",
+      "claim-0018",
+      "claim-0019",
+      "claim-0020"
+    ],
+    "event_ids": [
+      "event-0027",
+      "event-0028",
+      "event-0031",
+      "event-0032"
+    ],
+    "evidence_ids": [
+      "evidence-0008",
+      "evidence-0009",
+      "evidence-0010",
+      "evidence-0011",
+      "evidence-0012",
+      "evidence-0013",
+      "evidence-0014",
+      "evidence-0015"
+    ]
+  },
+  {
+    "id": "proc-0002",
+    "index_number": "155721/2024",
+    "title": "Bleich v. Board of Managers",
+    "court": "NY County Supreme Court, Part 33",
+    "claim_ids": [
+      "claim-0021",
+      "claim-0022",
+      "claim-0023",
+      "claim-0024",
+      "claim-0025",
+      "claim-0026",
+      "claim-0027"
+    ],
+    "event_ids": [
+      "event-0002",
+      "event-0004",
+      "event-0007",
+      "event-0015",
+      "event-0017",
+      "event-0020",
+      "event-0026",
+      "event-0036",
+      "event-0040",
+      "event-0046"
+    ],
+    "evidence_ids": [
+      "evidence-0016",
+      "evidence-0017",
+      "evidence-0018",
+      "evidence-0019",
+      "evidence-0020",
+      "evidence-0021",
+      "evidence-0022",
+      "evidence-0034",
+      "evidence-0036"
+    ]
+  },
+  {
+    "id": "proc-0003",
+    "index_number": "166679/2025",
+    "title": "The Cellar Restraint and the $8 Million Demand",
+    "court": "NY County Supreme Court",
+    "claim_ids": [
+      "claim-0028",
+      "claim-0029",
+      "claim-0030",
+      "claim-0031",
+      "claim-0032",
+      "claim-0033",
+      "claim-0034"
+    ],
+    "event_ids": [
+      "event-0039"
+    ],
+    "evidence_ids": [
+      "evidence-0023",
+      "evidence-0024",
+      "evidence-0025",
+      "evidence-0026",
+      "evidence-0027",
+      "evidence-0028"
+    ]
+  },
+  {
+    "id": "proc-0004",
+    "index_number": "152171/2026",
+    "title": "The Enhanced Complaint and the Multi-Front Offensive",
+    "court": "NY County Supreme Court",
+    "claim_ids": [
+      "claim-0035"
+    ],
+    "event_ids": [
+      "event-0044"
+    ],
+    "evidence_ids": [
+      "evidence-0029"
+    ]
+  }
+]

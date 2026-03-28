@@ -1,0 +1,170 @@
+[
+  {
+    "id": "entity-0001",
+    "name": "Michael Edward Bleich",
+    "entity_type": "person",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0002",
+    "name": "Alexis Bleich",
+    "entity_type": "person",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0003",
+    "name": "13 Harrison LLC",
+    "entity_type": "organization",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0004",
+    "name": "Board of Managers of 13 Harrison Street Condominium",
+    "entity_type": "organization",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0005",
+    "name": "Morgan Brill",
+    "entity_type": "person",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0006",
+    "name": "David Kornmeier",
+    "entity_type": "person",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0007",
+    "name": "Robert A. Giacovas",
+    "entity_type": "person",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0008",
+    "name": "Justice W. Franc Perry",
+    "entity_type": "person",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0009",
+    "name": "Justice Mary V. Rosado",
+    "entity_type": "person",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0010",
+    "name": "Justice Judy H. Kim",
+    "entity_type": "person",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0011",
+    "name": "Justice Roth",
+    "entity_type": "person",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0012",
+    "name": "Adam Leitman Bailey, P.C.",
+    "entity_type": "organization",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0013",
+    "name": "Abdallah Elcherbini, AIA",
+    "entity_type": "person",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0014",
+    "name": "James Powers, P.E.",
+    "entity_type": "person",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0015",
+    "name": "Irene Vogt",
+    "entity_type": "person",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0016",
+    "name": "NY Brownstone LLC",
+    "entity_type": "organization",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0017",
+    "name": "Scout Trading, LLC",
+    "entity_type": "organization",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0018",
+    "name": "EntryPoint Capital, LLC",
+    "entity_type": "organization",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0019",
+    "name": "Lazare Potter Giacovas & Moyle LLP",
+    "entity_type": "organization",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0020",
+    "name": "Rukab & Brash PLLC",
+    "entity_type": "organization",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0021",
+    "name": "Alexandra Jonas",
+    "entity_type": "person",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0022",
+    "name": "Lynn E. Judell",
+    "entity_type": "person",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0023",
+    "name": "New York County Supreme Court",
+    "entity_type": "court",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0024",
+    "name": "Commercial Division, New York County Supreme Court",
+    "entity_type": "court",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0025",
+    "name": "13 Harrison Street",
+    "entity_type": "property",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0026",
+    "name": "Unit 1",
+    "entity_type": "property",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0027",
+    "name": "Unit 2",
+    "entity_type": "property",
+    "notes_internal": null
+  },
+  {
+    "id": "entity-0028",
+    "name": "Northeast Bank",
+    "entity_type": "organization",
+    "notes_internal": null
+  }
+]
